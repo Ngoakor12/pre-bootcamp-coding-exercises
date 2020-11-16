@@ -1,7 +1,7 @@
 function convertToTime(x) {
     var hours = 0,
         minutes = 0;
-    if (x >= 0) { //to filter negative numbers
+    if (x >= 0) {
         while (x >= 60) {
             hours += 1;
             x -= 60;
