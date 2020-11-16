@@ -14,7 +14,7 @@ function biggestOfThreeNumbers(x, y, z) {
 console.log(biggestOfThreeNumbers(70, 30, 47));
 
 // BONUS: function taking many numbers and returning the biggest
-function biggestOfManyNumbers(arr = []) {
+/*function biggestOfManyNumbers(arr = []) {
     var i = 0;
     var biggest = 0;
     for (i = 0; i < arr.length; i++) {
@@ -25,4 +25,4 @@ function biggestOfManyNumbers(arr = []) {
     return biggest;
 }
 //function testing
-console.log(biggestOfManyNumbers([100, , 1000, 5, 0, 9800, 560]));
+console.log(biggestOfManyNumbers([100, , 1000, 5, 0, 9800, 560]));*/
