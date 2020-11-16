@@ -1,4 +1,3 @@
-//function taking 3 numbers and returning the biggest
 function biggestOfThreeNumbers(x, y, z) {
     var biggest;
     if (x > y && x > z) {
