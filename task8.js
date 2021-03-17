@@ -1,13 +1,13 @@
-function convertToTime(x) {
+function convertToTime(number) {
 	var hours = 0,
 		minutes = 0;
-	if (x > 0) {
+	if (number > 0) {
 		//to filter negative numbers
-		while (x >= 60) {
+		while (number >= 60) {
 			hours += 1;
-			x -= 60;
+			number -= 60;
 		}
-		minutes = x;
+		minutes = number;
 		if (hours == 1 && minutes == 1) {
 			return hours + " hour, " + minutes + " minute";
 		} else if (hours == 1 && minutes != 1) {
